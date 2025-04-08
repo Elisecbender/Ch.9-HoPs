@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Form</title>
+</head>
+<body>
+
+    <form action="http://webdevfoundations.net/scripts/mydemo.asp" method="post">
+
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" maxlength="30">
+        </div>
+        <br>
+
+        <div>
+            <label>Favorite Day of the Week:</label><br>
+            <input type="radio" id="monday" name="favorite_day" value="monday">
+            <label for="monday">Monday</label><br>
+            <input type="radio" id="tuesday" name="favorite_day" value="tuesday">
+            <label for="tuesday">Tuesday</label><br>
+            <input type="radio" id="wednesday" name="favorite_day" value="wednesday">
+            <label for="wednesday">Wednesday</label><br>
+            <input type="radio" id="thursday" name="favorite_day" value="thursday">
+            <label for="thursday">Thursday</label><br>
+            <input type="radio" id="friday" name="favorite_day" value="friday">
+            <label for="friday">Friday</label><br>
+            <input type="radio" id="saturday" name="favorite_day" value="saturday">
+            <label for="saturday">Saturday</label><br>
+            <input type="radio" id="sunday" name="favorite_day" value="sunday">
+            <label for="sunday">Sunday</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="favorite_sns">Favorite Social Networking Site:</label>
+            <select id="favorite_sns" name="favorite_sns">
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="tiktok">TikTok</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <div>
+                <label for="addressline1">Address Line 1:</label>
+                <input type="text" id="addressline1" name="addressline1">
+            </div>
+            <div>
+                <label for="addressline2">Address Line 2:</label>
+                <input type="text" id="addressline2" name="addressline2">
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+            </div>
+            <div>
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip">
+            </div>
+        </fieldset>
+        <br>
+
+        <div>
+            <input type="image" src="signup.gif" alt="Sign Up">
+        </div>
+        <br>
+
+        <div>
+            <input type="hidden" id="userid" name="userid" value="someUserID">
+        </div>
+
+        <div>
+            <label for="pword">Password:</label>
+            <input type="password" id="pword" name="pword">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Form">
+        </div>
+
+    </form>
+
+</body>
+</html>
